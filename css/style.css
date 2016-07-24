@@ -1,0 +1,208 @@
+/* Navigation Section */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+}
+	
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid pink;
+}
+.top-navigation > .content {
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.top-navigation .links {
+	margin-top: 1.5em;
+	margin-right: 1.5rem;
+	font-size: 1.04rem;
+	text-align: center;
+	list-style-type: none;
+	padding: 1rem;
+}
+
+.top-navigation .links li a {
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 5rem;
+	padding-left: 1rem;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 600;
+	font-size: 1.5em;
+	padding-right: 2rem;
+}
+
+@media (min-width: 700px) {
+	.top-navigation .links {
+		text-align:right;
+		margin-left: 1em;
+   	 	margin-right: 3rem;
+	}
+	.top-navigation .links li {
+		display: inline-block;
+	}
+	
+}
+
+.top-navigation .links li a:hover {
+	cursor: pointer;
+	color: pink;
+}
+
+.introduction {
+	background-image:url('../images/portfolio-background1600-2.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 35rem;
+    overflow: auto;
+ }
+
+ .introduction h1,
+ .introduction h3 {
+	text-align: center;
+	font-weight: 600;
+  
+ }
+
+.introduction h1 {
+	font-family: 'Indie Flower', cursive;
+	margin-top: 12.5rem;
+	color: pink;
+	font-size: 5.125rem;
+	margin-bottom: auto;
+}
+
+.introduction h3 {
+	margin-top: 0.5rem;
+	font-size: 2.5rem;
+	color: pink;
+	font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+	font-size: 1em;
+	font-family: 'Amatic SC', cursive;
+	border-bottom: 1px solid pink;
+	color: gray;
+}	
+
+
+
+.main-body {
+	overflow: hidden;
+    padding-bottom: 5rem;
+    background-color: #fff;
+	
+}
+
+
+.main-body .content {
+	text-align: center;
+	margin-top: 3.5rem;
+	padding: none;
+	color: #1d1e21;
+}
+
+.main-body h2 {
+	font-size: 1.8rem;
+	margin: 1.625rem 0 3.125rem;
+	/*font-weight: 300;*/
+	padding-bottom: 5rem;
+	font-size: 2.2rem;
+}
+
+.main-body .projects li {
+	display: inline-block;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+ .main-body .projects {
+	margin-top: 6rem;
+	list-style: none;
+}
+
+hr {
+	border: 1px solid pink;
+}
+
+.social  {
+	background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social .icons {
+	padding: 0;
+	margin: 0;
+}
+
+.social .content h5 {
+	font-weight: 400;
+	font-size: 1.5em;
+	margin-bottom: inherit;
+	color: gray;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+
+.social .icons > li {
+    display: inline-block;
+    margin: 1.25rem 5px;
+    padding: 0.625rem 0;
+    text-align: center;
+
+ 
+}
+
+.social .icons > li a {
+	text-decoration: none;
+	color: gray;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.social .icons > li a:hover {
+	cursor: pointer;
+	color: pink;
+}
+
+.social hr {
+	border: 0;
+	border-top: 1px solid pink;
+	margin: 5em 0;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
